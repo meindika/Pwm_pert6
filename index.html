@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>CV Meindika</title>
+	<meta name="description" content="CV Meindika"/>
+	<!--viewport digunakan untuk menyesuaikan tampilan layar yang ditampilka diberbagai resolusi di semua perangkat -->
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+	  <!-- icon -->
+	  <link rel="icon" sizes="192x192" href="icon.svg">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+	<!-- Navigasi -->
+	<nav class="teal lighten-1" role="navigation">
+	<div class="nav-wrapper container">
+	<a href="#" class="brand-logo" id="logo-container">Meindika's</a>
+	<a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+	
+	<ul class="topnav right hide-on-med-and-down"></ul>
+	<ul class="sidenav" id="nav-mobile"></ul>
+	</div>
+	</nav>
+	<!-- Akhir Navigasi -->
+	<div class="container" id="body-content"></div>
+	<!-- menggunakan script dari materialize -->
+	<script src="js/materialize.min.js"></script>
+	<script src="js/nav.js"></script>
+	<br>
+	
+	
+	</br>
+	<script>
+   if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('meindika-sw.js')
+  .then(function(registration) {
+    console.log('Registered:', registration);
+  })
+  .catch(function(error) {
+    console.log('Registration failed: ', error);
+  });
+}
+</script>
+</script>
+
+</body>
+<br>
+
+
+</br>
+
+</html>
